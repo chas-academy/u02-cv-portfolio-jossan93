@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+  background-color: rgb(71, 82, 240);
+  background-color: rgb(0, 110, 255);
+}/*# sourceMappingURL=index.css.map */
