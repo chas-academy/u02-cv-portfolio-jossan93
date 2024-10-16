@@ -1,0 +1,9 @@
+$colorBlue: #4381C1;
+$colorBlue2: #4F628E;
+
+table, td, th {
+    background-color: $colorBlue2;
+}
+
+aside {background-image:linear-gradient($colorBlue2,lightblue)
+}

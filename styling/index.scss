@@ -1,11 +1,60 @@
-@import "reset";
+@use "reset";
 
-@import "text";
+@use "text" as *;
 
-aside {
-    background-color: $color;
-    background-color: $colorBlue;
+@use "colors" as *;
+
+
+.container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
 }
 
+.bord {
+    grid-column: 1 / 4;
+}
 
+.om-mig {
+    grid-area: 2 / 1 / 2 / 3;
+}
+
+.erfarenheter {
+    grid-area: 3 / 1 / 3 / 3;
+    border-top: 2px solid black;
+}
+
+.class-utbildning {
+    grid-area: 4 / 1 / 4 / 3;
+    border-top: 2px solid black;
+}
+
+.class-project {
+    grid-area: 5 / 1 / 5 / 3;
+    border-top: 2px solid black;
+}
+
+aside {
+    grid-area: 2 / 3 / 6 / 3;
+    
+    
+}
+
+table, td, th {
+   padding: 10px;
+   border-collapse: collapse;
+   /*anv för att se table bättre kan ta borts när klar  */  
+   border: 1px solid black;
+
+} 
+
+.tableunderkontakt {
+   border-right: 1px solid black;
+}
+
+img {
+   height: auto;
+   width: 30px;
+   
+}
 
