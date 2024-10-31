@@ -43,18 +43,19 @@ aside {
 table, td, th {
    padding: 10px;
    border-collapse: collapse;
-   /*anv för att se table bättre kan ta borts när klar  */  
+   /*anv för att se table bättre kan ta borts när klar */   
    border: 1px solid black;
-
+   text-align: center;
 } 
 
+
 .tableunderkontakt {
-   border-right: 1px solid black;
-}
+   vertical-align: text-top;
+} 
 
 img {
    height: auto;
-   width: 30px;
-   
+   width: fit-content;
+   vertical-align: middle;
 }
 

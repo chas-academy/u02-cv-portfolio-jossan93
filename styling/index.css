@@ -9,6 +9,10 @@ h2 {
   font-size: xx-large;
 }
 
+table thead {
+  font-size: xx-large;
+}
+
 table, td, th {
   background-color: #4F628E;
 }
@@ -53,15 +57,18 @@ aside {
 table, td, th {
   padding: 10px;
   border-collapse: collapse;
-  /*anv för att se table bättre kan ta borts när klar  */
+  /*anv för att se table bättre kan ta borts när klar */
   border: 1px solid black;
+  text-align: center;
 }
 
 .tableunderkontakt {
-  border-right: 1px solid black;
+  vertical-align: text-top;
 }
 
 img {
   height: auto;
-  width: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  vertical-align: middle;
 }/*# sourceMappingURL=index.css.map */
