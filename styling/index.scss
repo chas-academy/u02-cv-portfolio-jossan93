@@ -11,10 +11,6 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.bord {
-    grid-column: 1 / 4;
-}
-
 .om-mig {
     grid-area: 2 / 1 / 2 / 3;
 }
@@ -36,23 +32,56 @@
 
 aside {
     grid-area: 2 / 3 / 6 / 3;
-    
-    
 }
 
 table, td, th {
    padding: 10px;
    border-collapse: collapse;
    text-align: center;
+   width: 100%;
+   table-layout: fixed;
+   
 } 
 
-.tableunderkontakt {
+.colbord {
+    width: 20%;
+}
+
+.tableundernamn {
    vertical-align: text-top;
+   width: 35%;
 } 
 
 img {
    height: auto;
-   width: fit-content;
    vertical-align: middle;
+   align-items: center;
 }
 
+@media screen and (width <600px){
+    iframe { 
+        width: 100%;
+    }
+
+    .tableundernamn {
+        text-align: left;
+    }
+
+    .kontinfo {
+       text-align: right; 
+    }
+
+    #mail {
+        font-size: smaller;
+    }
+    table thead {
+        font-size: medium;
+    }
+    .colbord {
+      width: 5%;
+    }
+
+    .container {
+       
+    }
+}
