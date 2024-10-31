@@ -21,16 +21,29 @@ table thead {
   font-size: xx-large;
 }
 
+a {
+  color: black;
+}
+
 .datum {
   font-style: italic;
 }
 
-table, td, th {
-  background-color: #4F628E;
+.bokmärken {
+  font-size: 150%;
+  margin: 10px;
 }
 
 aside {
-  background-image: linear-gradient(#4F628E, lightblue);
+  text-indent: 5px;
+}
+
+table, td, th {
+  background-color: #7685aa;
+}
+
+aside {
+  background-image: linear-gradient(#7685aa, lightblue);
 }
 
 .container {
@@ -69,8 +82,6 @@ aside {
 table, td, th {
   padding: 10px;
   border-collapse: collapse;
-  /*anv för att se table bättre kan ta borts när klar    
-  border: 1px solid black;*/
   text-align: center;
 }
 
