@@ -6,11 +6,23 @@
 }
 
 h2 {
-  font-size: xx-large;
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+h4 {
+  font-size: 120%;
 }
 
 table thead {
   font-size: xx-large;
+}
+
+.datum {
+  font-style: italic;
 }
 
 table, td, th {
@@ -57,8 +69,8 @@ aside {
 table, td, th {
   padding: 10px;
   border-collapse: collapse;
-  /*anv för att se table bättre kan ta borts när klar */
-  border: 1px solid black;
+  /*anv för att se table bättre kan ta borts när klar    
+  border: 1px solid black;*/
   text-align: center;
 }
 

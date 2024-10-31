@@ -1,14 +1,25 @@
-$fontSizeh2: xx-large;
+$fontSizeh2: 200%;
 $font-family: Arial, Helvetica, sans-serif;
 $textOverLine: overline;
-$fontSizeh3: large;
-
+$fontSizeh3: 150%;
+$fontSize4: 120%;
 
 h2 {
     font-size: $fontSizeh2;
+}
+
+h3 {
+    font-size: $fontSizeh3;
+}
+
+h4 {
+    font-size: $fontSize4;
 }
 
 table thead {
     font-size: xx-large;
 }
 
+.datum {
+    font-style: italic;
+}
